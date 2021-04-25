@@ -1,0 +1,89 @@
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: contain;
+  background-position: center; (questo risolve la distorsione sul mio pc
+  ma non so se vale lo stesso sui vostri quindi la metto come commento) */
+  background-size: 100% 100%;
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.All{
+  background: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.LogoTitle{
+text-align: center;
+}
+
+.Logo{
+  width: 200px;
+  margin-top: 70px;
+}
+
+.Title{
+  font-family: 'Poppins', sans-serif;
+  color: lime;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.Buttons{
+  text-align: center;
+  background-color: #00dd00;
+  padding: 10px;
+  width: 850px;
+  margin: auto;
+}
+
+.MainText{
+  width: 870px;
+  margin: auto;
+}
+
+.Monopattini{
+  display: inline-block;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.Via{
+  margin-top: 0px;
+  margin-bottom:0px;
+  color: white;
+  font-style: normal;
+}
+
+.Charge1{
+  height: 25px;
+  background-color: #f5b453;
+  border-radius: 5px;
+  margin-right: 600px;
+
+}
+
+.Charge2{
+  height: 25px;
+  background-color: #1ec31e;
+  border-radius: 5px;
+  margin-right: 300px;
+
+}
+
+.Charge3{
+  height: 25px;
+  background-color: #be4141;
+  border-radius: 5px;
+  margin-right: 750px;
+
+}
+
+.BlankSpace{
+  height: 100px;
+}
